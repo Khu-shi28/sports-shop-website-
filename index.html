@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity Sports | Premium Running Gear</title>
+    <meta name="description" content="Velocity Sports is your premium destination for high-performance running shoes, apparel, and accessories.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Phosphor Icons for modern vector icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                VELOCITY<span class="text-primary">.</span>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#cart" class="cart-icon">
+                        <i class="ph ph-shopping-cart"></i>
+                        <span class="cart-badge">2</span>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle Menu">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg">
+            <img src="assets/images/hero_runners_1773755554995.png" alt="Runners sprinting on track">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">PUSH YOUR <br><span class="text-primary">LIMITS</span></h1>
+            <p class="hero-subtitle">High-performance gear built for the modern runner. Engineered for speed, designed for impact.</p>
+            <div class="hero-actions">
+                <a href="#shop" class="btn btn-primary">Shop Now <i class="ph ph-arrow-right"></i></a>
+                <a href="#categories" class="btn btn-outline">Explore Gear</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Products -->
+    <section id="shop" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured <span class="text-primary">Arrivals</span></h2>
+                <p>Equip yourself with the latest breakthrough technology.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <span class="badge">NEW</span>
+                        <img src="assets/images/running_shoes_1773755697618.png" alt="Velocity Phantom Shoes" class="product-img">
+                        <button class="add-to-cart-btn"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Running Shoes</p>
+                        <h3 class="product-title">Velocity Phantom Pro X</h3>
+                        <div class="product-price-row">
+                            <span class="price">$189.99</span>
+                            <div class="rating">
+                                <i class="ph-fill ph-star"></i> 4.9
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="assets/images/smart_watch_1773755745765.png" alt="Velocity Smart Watch" class="product-img">
+                        <button class="add-to-cart-btn"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Tech</p>
+                        <h3 class="product-title">V-Track Chrono Series</h3>
+                        <div class="product-price-row">
+                            <span class="price">$249.00</span>
+                            <div class="rating">
+                                <i class="ph-fill ph-star"></i> 4.8
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <img src="assets/images/water_bottle_1773755831276.png" alt="Hydro Flask Bottle" class="product-img">
+                        <button class="add-to-cart-btn"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Accessories</p>
+                        <h3 class="product-title">Aero HydroFlask 32oz</h3>
+                        <div class="product-price-row">
+                            <span class="price">$35.00</span>
+                            <div class="rating">
+                                <i class="ph-fill ph-star"></i> 5.0
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image-wrapper">
+                        <span class="badge sale">SALE</span>
+                        <!-- Placeholder for sportswear -->
+                        <img src="assets/images/running_shoes_1773755697618.png" alt="Running Jacket" class="product-img" style="filter: hue-rotate(180deg) brightness(0.8);">
+                        <button class="add-to-cart-btn"><i class="ph ph-shopping-bag"></i></button>
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">Apparel</p>
+                        <h3 class="product-title">Stormbreaker Jacket</h3>
+                        <div class="product-price-row">
+                            <span class="price"><span class="old-price">$120</span>$89.99</span>
+                            <div class="rating">
+                                <i class="ph-fill ph-star"></i> 4.7
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Special Offers Banner -->
+    <section class="offer-banner">
+        <div class="offer-content">
+            <h2>MID-SEASON <span class="text-black">SALE</span></h2>
+            <p>Up to 40% off on all professional running gear. Limited time only.</p>
+            <a href="#shop" class="btn btn-black">Claim Discount</a>
+        </div>
+        <div class="offer-graphics">
+            <div class="circle circle-1"></div>
+            <div class="circle circle-2"></div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="section bg-dark">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Shop By <span class="text-primary">Category</span></h2>
+            </div>
+            
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <div class="category-bg" style="background-image: url('assets/images/running_shoes_1773755697618.png');"></div>
+                    <div class="category-content">
+                        <h3>Running Shoes</h3>
+                        <span class="explore-link">Explore <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-bg" style="background-color: #1a1a1d;"></div>
+                    <div class="category-content">
+                        <h3>Apparel</h3>
+                        <span class="explore-link">Explore <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-bg" style="background-image: url('assets/images/smart_watch_1773755745765.png');"></div>
+                    <div class="category-content">
+                        <h3>Fitness Gear</h3>
+                        <span class="explore-link">Explore <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <div class="category-bg" style="background-image: url('assets/images/water_bottle_1773755831276.png');"></div>
+                    <div class="category-content">
+                        <h3>Accessories</h3>
+                        <span class="explore-link">Explore <i class="ph ph-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-text">
+                <h2>Driven By <br><span class="text-primary">Performance.</span></h2>
+                <p>At Velocity Sports, we believe that every runner deserves high-quality gear that pushes them beyond their limits. Born from a passion for the track, we engineer products that blend cutting-edge technology with aggressive, modern aesthetics.</p>
+                <p>Whether you're training for your first 5K or competing in an ultra-marathon, our curated selection of footwear, apparel, and accessories ensures you stay light, fast, and unstoppable.</p>
+                
+                <div class="stats-row">
+                    <div class="stat">
+                        <h4>10K+</h4>
+                        <p>Athletes Geared</p>
+                    </div>
+                    <div class="stat">
+                        <h4>50+</h4>
+                        <p>Premium Brands</p>
+                    </div>
+                    <div class="stat">
+                        <h4>24/7</h4>
+                        <p>Expert Support</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <div class="visual-box">
+                    <img src="assets/images/hero_runners_1773755554995.png" alt="Runners lifestyle">
+                    <div class="decorative-square"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-header text-center">
+                <h2>Athlete <span class="text-primary">Reviews</span></h2>
+            </div>
+            
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="review-text">"The Phantom Pro X shoes completely changed my marathon times. Unbelievably lightweight and aggressive grip!"</p>
+                    <div class="reviewer">
+                        <div class="avatar">SJ</div>
+                        <div>
+                            <h4>Sarah Jenkins</h4>
+                            <span>Pro Runner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i>
+                    </div>
+                    <p class="review-text">"Velocity always delivers fast. The smartwatch UI is incredible, tracking every split perfectly."</p>
+                    <div class="reviewer">
+                        <div class="avatar">MR</div>
+                        <div>
+                            <h4>Marcus Reid</h4>
+                            <span>Triathlete</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-card">
+                    <div class="review-stars">
+                        <i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph-fill ph-star"></i><i class="ph ph-star"></i>
+                    </div>
+                    <p class="review-text">"Great selection of premium gear. The customer service helped me find exactly the right fit for my arch type."</p>
+                    <div class="reviewer">
+                        <div class="avatar">DT</div>
+                        <div>
+                            <h4>David Torres</h4>
+                            <span>Trail Runner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+        <div class="container newsletter-container">
+            <div class="newsletter-content">
+                <h2>Join The <span class="text-primary">Pace</span></h2>
+                <p>Subscribe to our newsletter for exclusive drops, training tips, and early access to sales.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="section">
+        <div class="container contact-container">
+            <div class="contact-info">
+                <h2>Get In <span class="text-primary">Touch</span></h2>
+                <p>Have questions about gear or an order? Our team of running experts is ready to help.</p>
+                
+                <ul class="contact-details">
+                    <li>
+                        <div class="icon-box"><i class="ph ph-map-pin"></i></div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>124 Velocity Blvd, Runner's District, ST 90210</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box"><i class="ph ph-phone"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 (800) 555-RUNS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon-box"><i class="ph ph-envelope"></i></div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>support@velocitysports.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="ph ph-map-trifold"></i>
+                    <p>Interactive Map View</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <a href="#" class="logo footer-logo">
+                    VELOCITY<span class="text-primary">.</span>
+                </a>
+                <p>Premium gear for those who refuse to slow down. Keep pushing, keep running.</p>
+                <div class="social-links">
+                    <a href="#"><i class="ph ph-instagram-logo"></i></a>
+                    <a href="#"><i class="ph ph-twitter-logo"></i></a>
+                    <a href="#"><i class="ph ph-facebook-logo"></i></a>
+                    <a href="#"><i class="ph ph-youtube-logo"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Shop</h4>
+                <ul>
+                    <li><a href="#">Running Shoes</a></li>
+                    <li><a href="#">Men's Apparel</a></li>
+                    <li><a href="#">Women's Apparel</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Sale Items</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns & Exchanges</a></li>
+                    <li><a href="#">Shipping Info</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h4>Company</h4>
+                <ul>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 Velocity Sports. All rights reserved.</p>
+                <div class="payment-icons">
+                    <i class="ph ph-credit-card"></i>
+                    <i class="ph ph-paypal-logo"></i>
+                    <i class="ph ph-apple-podcasts-logo"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
